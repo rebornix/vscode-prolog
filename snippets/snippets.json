@@ -1,0 +1,26 @@
+{
+	"dcg": {
+		"prefix": "dcg",
+		"body": "${1:clause} --&gt; ${0:body}.",
+		"description": "DCG",
+		"scope": "source.prolog"
+	},
+	"dcg1": {
+		"prefix": "dcg",
+		"body": "${1:clause} --> ${0:body}.",
+		"description": "DCG",
+		"scope": "source.prolog"
+	},
+	"fact": {
+		"prefix": "fact",
+		"body": "${1:functor_name}(${2:argument}).",
+		"description": "Fact",
+		"scope": "source.prolog"
+	},
+	"rule": {
+		"prefix": "rule",
+		"body": "${1:functor_name}(${2:argument}) :-\n\t${0:%% body}",
+		"description": "Rule",
+		"scope": "source.prolog"
+	}
+}

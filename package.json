@@ -2,7 +2,7 @@
     "name": "prolog",
     "displayName": "Prolog",
     "description": "Prolog language support for Visual Studio Code",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "rebornix",
     "author": {
 		"name": "Peng Lv"
@@ -17,7 +17,8 @@
         "vscode": "^1.0.0"
     },
     "categories": [
-        "Languages"
+        "Languages",
+        "Snippets"
     ],
     "private": false,
 	"repository": {
@@ -39,6 +40,12 @@
             "language": "prolog",
             "scopeName": "source.prolog",
             "path": "./syntaxes/prolog.tmLanguage"
-        }]
+        }],
+        "snippets": [
+            {
+                "language": "prolog",
+                "path": "./snippets/snippets.json"
+            }
+        ]
     }
 }
