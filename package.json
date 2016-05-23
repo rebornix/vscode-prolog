@@ -2,7 +2,7 @@
     "name": "prolog",
     "displayName": "Prolog",
     "description": "Prolog language support for Visual Studio Code",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "rebornix",
     "author": {
 		"name": "Peng Lv"
