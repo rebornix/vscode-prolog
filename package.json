@@ -1,0 +1,44 @@
+{
+    "name": "prolog",
+    "displayName": "Prolog",
+    "description": "Prolog language support for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "rebornix",
+    "author": {
+		"name": "Peng Lv"
+	},
+	"contributors": [
+		{
+			"name": "Peng Lyu",
+			"url": "https://github.com/rebornix"
+		}
+    ],
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "private": false,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rebornix/vscode-prolog.git"
+	},
+	"bugs": {
+		"url": "https://github.com/rebornix/vscode-prolog/issues"
+	},
+    "icon": "images/prolog.png",
+    "contributes": {
+        "languages": [{
+            "id": "prolog",
+            "aliases": ["Prolog", "prolog"],
+            "extensions": [""],
+            "configuration": "./prolog.configuration.json"
+        }],
+        "grammars": [{
+            "language": "prolog",
+            "scopeName": "source.prolog",
+            "path": "./syntaxes/prolog.tmLanguage"
+        }]
+    }
+}
