@@ -1,7 +1,7 @@
 {
 	"dcg": {
 		"prefix": "dcg",
-		"body": "${1:clause} --&gt; ${0:body}.",
+		"body": "${1:clause} --> ${0:body}.",
 		"description": "DCG",
 		"scope": "source.prolog"
 	},
